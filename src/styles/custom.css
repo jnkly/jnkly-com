@@ -1,8 +1,7 @@
-* {
-  outline: 1px solid gold;
+.font-inter {
+  font-family: 'Inter', sans-serif;
 }
 
-
-body { font-family: "Inter", sans-serif; }
-
-h1 { font-family: "DM Serif Display", serif; }
+.font-dmserif {
+  font-family: 'DM Serif Display', serif;
+}

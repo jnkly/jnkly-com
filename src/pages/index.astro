@@ -12,10 +12,67 @@ import "@fontsource/dm-serif-display"
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-	<section class="p-8 bg-neutral-100">
-		<h1 class="text-5xl font-bold text-neutral-800 md:text-7xl">John Kelly</h1>
-		<p>This is a paragraph.</p>
-	</section>
+	<body class="font-inter">
+
+	<section class="bg-neutral-100 px-8 py-16">
+   <div class="max-w-3xl mx-auto grid grid-cols-1">
+     <div class="md:max-w-2xl space-y-8">
+      <p class="text-6xl font-dmserif font-bold md:text-8xl">John Kelly</p>
+      <p class="text-2xl md:text-4xl">I design websites and digital services that are clear to understand and simple to use.</p>
+     </div>
+   </div>
+ </section>
+
+ <section class="bg-stone-100 px-8 py-16">
+   <div class="max-w-3xl mx-auto grid grid-cols-1">
+     <div>
+		 <h2 class="text-4xl font-dmserif font-bold md:text-5xl">About me</h2>
+      <p class="text-xl md:text-2xl mt-4">I've been working on digital products for over 10 years. My current areas of interest include User Experience Design (UX), User Interface Design (UI) and web accessibility.</p>
+     </div>
+   </div>
+ </section>
+
+ <section class="py-16 px-8 border-b-2 border-stone-300">
+   <div class="mx-auto max-w-3xl">
+      <h2 class="text-4xl font-dmserif font-bold md:text-5xl">What I'm up to</h2>
+      <p class="mt-4">
+         I'm a developer who is currently learning Tailwind CSS and sharing website components, crafted with Tailwind CSS. Check out my free components.</p>
+
+         <ul class="space-y-4 mt-4">
+            <li><a class="underline hover:text-stone-500" href="https://play.tailwindcss.com/yGNiLGUfPp">Equal width columns</a></li>
+            <li><a class="underline hover:text-stone-500" href="https://play.tailwindcss.com/ZgioHNy6e6">Image gallery with CSS grid</a></li>
+            <li><a class="underline hover:text-stone-500" href="https://play.tailwindcss.com/iEpnoEgzAE">3 column cards</a></li>
+            <li><a class="underline hover:text-stone-500" href="https://play.tailwindcss.com/iPVhInr5Kl">3 column cards with images</a></li>
+         </ul>
+   </div>
+</section>
+
+<section class="py-16 px-8 border-b-2 border-stone-300">
+   <div class="mx-auto max-w-3xl">
+      <h2 class="text-4xl font-dmserif font-bold md:text-5xl">The day job</h2>
+      <div class="flex flex-col items-center justify-between gap-8 md:flex-row md:gap-16">
+         <p class="mt-4">
+            I'm web team lead at Rotherham Council, responsible for the main council website and serveral partner websites.</p>
+         <p></p>
+         <a href="https://www.rotherham.gov.uk/" class="inline-block flex-shrink-0 rounded-full bg-lime-300 py-3 px-8 text-lg font-semibold hover:bg-lime-400 hover:text-stone-900">Rotherham.gov.uk</a>
+      </div>
+   </div>
+</section>
+
+ <section class="py-16 px-8">
+  <div class="mx-auto max-w-3xl">
+     <h2 class="text-4xl font-dmserif font-bold md:text-5xl">Social</h2>
+     <div class="flex flex-col items-center justify-between gap-8 md:flex-row md:gap-16">
+        <p class="mt-4">
+           On twitter I'm @jnkly_me where I share web design tips, code snippets, and templates.</p>
+        <p></p>
+        <a href="https://twitter.com/jnkly_me" class="inline-block flex-shrink-0 rounded-full bg-lime-300 py-3 px-8 text-lg font-semibold hover:bg-lime-400 hover:text-stone-900">Follow me on Twitter</a>
+     </div>
+  </div>
+</section>
+
+ <footer class="bg-neutral-800 w-full text-center text-white px-6 md:px-8 py-16 mt-auto">
+   <small>Copyright © 2022 | All rights reserved</small>
+</footer>
 	</body>
 </html>
